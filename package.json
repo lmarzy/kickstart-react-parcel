@@ -8,7 +8,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "parcel ./src/index.html",
-    "build": "parcel build ./src/index.html/"
+    "build": "parcel build ./src/index.html/",
+    "precommit": "pretty-quick --staged"
   },
   "dependencies": {
     "react": "^16.6.3",
