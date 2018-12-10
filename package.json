@@ -1,0 +1,32 @@
+{
+  "name": "kickstart-react-parcel",
+  "version": "1.0.0",
+  "description": "Kickstarter for a React project using Parcel as the bundler",
+  "main": "index.js",
+  "repository": "https://github.com/lmarzy/kickstart-react-parcel.git",
+  "author": "lmarzy <me@phz3.net>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html/"
+  },
+  "dependencies": {
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^5.10.0",
+    "eslint-plugin-react": "^7.11.1",
+    "husky": "^1.2.0",
+    "lint-staged": "^8.1.0",
+    "parcel-bundler": "^1.10.3",
+    "prettier": "^1.15.3",
+    "pretty-quick": "^1.8.0"
+  }
+}
