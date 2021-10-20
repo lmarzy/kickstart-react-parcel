@@ -7,4 +7,5 @@ module.exports = {
   testMatch: ['<rootDir>/src/**/**/*.(test|spec).(ts|tsx|js)'],
   preset: 'ts-jest',
   setupFilesAfterEnv: ['@testing-library/jest-dom/extend-expect'],
+  testEnvironment: 'jest-environment-jsdom',
 };
