@@ -4,6 +4,7 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
+    "test:unit": "jest",
     "prettier:fix": "prettier './src/**/*.{ts,tsx}' --write",
     "lint:fix": "eslint './src/**/*.{ts,tsx}' --fix",
     "lint:css": "stylelint './src/**/*.ts'",
