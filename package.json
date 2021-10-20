@@ -6,7 +6,8 @@
     "build": "parcel build",
     "prettier:fix": "prettier './src/**/*.{ts,tsx}' --write",
     "lint:fix": "eslint './src/**/*.{ts,tsx}' --fix",
-    "lint:css": "stylelint './src/**/*.ts'"
+    "lint:css": "stylelint './src/**/*.ts'",
+    "prepare": "husky install"
   },
   "dependencies": {
     "react": "^17.0.2",
