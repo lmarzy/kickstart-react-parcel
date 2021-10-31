@@ -1,13 +1,16 @@
 import React, { FC } from 'react';
 
+import { QueryClient, QueryClientProvider } from 'react-query';
 import { Link, Route } from 'react-router-dom';
 
 import { routes } from '../../config/routes';
 import GlobalStyles from '../../styles/global';
 import { Header, Footer } from './components';
 
+const queryClient = new QueryClient();
+
 export const App: FC = () => (
-  <>
+  <QueryClientProvider client={queryClient}>
     <GlobalStyles />
     <Header />
     <nav>
@@ -27,5 +30,5 @@ export const App: FC = () => (
       ))}
     </main>
     <Footer />
-  </>
+  </QueryClientProvider>
 );
